@@ -3,27 +3,38 @@
 }
 .page-container{
     background-image:url("./Assets/Background.png");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 8000 8000;
+    z-index: -1;
+
 }
 .container{
     display:flex;
     flex-direction: row;
-    
+    height:90%;
+    width: 70%;
+    margin-left: 15%;
+   
 }
  h2 {
     color:#fff;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+
 }
  h3{
      padding-top: 10px;
     color:rgb(129, 158, 212);
     text-align: center;
     font-weight:normal;
+    font-family: 'Roboto', sans-serif;
+
 }
 div .phone-pic {
-background-color: rgb(10, 12, 161);
+background-color: #006666;
 width: 50%;
+margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 25px;
 }
 div .login{
     background-color: #fff;
@@ -31,7 +42,36 @@ div .login{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
+margin-bottom: 50px;
+border-radius: 15px;
 }
+
 button{
-    color:rgb(10, 12, 161); ;
+    background-color:#006666;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+
+}
+p{
+    font-family: 'Roboto', sans-serif;
+margin: 0;
+}
+.terms{
+    color:#006666;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+#password{
+
+}
+#email{
+  
 }
